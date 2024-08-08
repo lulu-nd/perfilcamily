@@ -16,8 +16,8 @@
     --primary-boder-color:#28292E;
     --secondary-border-color:#56575A;
     --title-color:#F0F0F0;
-    --link-hover:#8f8f8f;
-    --link-color:#F0F0F0;
+    --link-color:#8f8f8f;
+    --link-hover:#F0F0F0;
     --incon-color:#C7C8C9;
 }
 /*TEMA LIGHT*/
@@ -29,8 +29,8 @@
      --primary-boder-color:#C7C8C9;
      --secondary-border-color:#9A9A9C;
      --title-color:#0B0B0F;
-     --link-hover:#a3a2a2;
-     --link-color:#0B0B0F;
+     --link-color:#a3a2a2;
+     --link-hover:#0B0B0F;
      --incon-color:#56575A;
     }
      /*Reset CSS*/
@@ -54,4 +54,23 @@ a{
 }
 a:hover {
     color: var(--link-hover)
+}
+i {
+color: var(--incon-color);
+}
+.header {
+display: flex;
+flex-flow: row wrap;
+/* coloca o conteudo em linha e permite a quebra de linha*/
+justify-content: space-between;
+/* os itens demtro do conteiner flexivel serão distribuidos de maneira uniforme ao longo do eixo principal, com espaço iguais entre eles*/
+align-items: center;
+width: 100%;
+padding: 0.5rem 1rem;
+z-index: 2;
+/*sobreposição*/
+}
+.header-logo .logo{
+width: 3.25rem;
+height: 3.25rem;
 }
