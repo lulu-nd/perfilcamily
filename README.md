@@ -1,2 +1,2 @@
 # perfilcamily
-Seite para minha amiguinha do curso &lt;3
+Site para minha amiga do curso <3
