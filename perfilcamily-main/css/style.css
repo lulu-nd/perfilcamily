@@ -193,6 +193,17 @@ text-transform: uppercase;
 .btn-primary span{
 color: var(--primary-color);
 }
+#home{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-content{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
 
 /* =====  --------------------- ======= */
 
