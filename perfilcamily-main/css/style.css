@@ -202,7 +202,16 @@ color: var(--primary-color);
 .main-content{
 display: flex;
 flex-direction: column;
-gap: 2rem;
+gap: 1.5rem;
+}
+
+.video iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+#home, .projetos, .sobre, .contatos{
+    padding: 5rem 5rem;
 }
 
 /* =====  --------------------- ======= */
