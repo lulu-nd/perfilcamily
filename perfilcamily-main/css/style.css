@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* Variaveis das Cores */
+
 /* TEMA DARK */
+
 :root, :root[data-theme='dark'] {
     --primary-color: #f0f0f0;  /*cor principal Textos*/
     --primary-bg-color: #171111;  /*cor principal Fundo*/ 
@@ -18,7 +20,9 @@
 
     --icon-color: #C7C8C9;
 }
+
 /* TEMA LIGHT */
+
 :root[data-theme='light'] {
     --primary-color: #0d0c09; /* cor principal textos */
 
@@ -35,6 +39,7 @@
 }
 
 /* Reset CSS */
+
 * {
     margin: 0; /*margem */
     padding: 0px; /* preenchimento */
@@ -179,24 +184,29 @@ html[data-theme='light'] .logo2 {
     padding: 0.5rem 1.5rem;
     transition: ease-in-out .3s;
 }
+
 .btn-primary{
     border: 1px solid var(--secondary-border-color);
 }
+
 .btn:hover{
 transform: scale(1.07);
 transition: ease-in-out 0.5s;
 }
+
 .btn span, .btn i{
 font-size: 1.25rem;
 text-transform: uppercase;
 }
+
 .btn-primary span{
 color: var(--primary-color);
 }
+
 #home{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2rem
 }
 
 .main-content{
@@ -214,20 +224,85 @@ gap: 1.5rem;
     padding: 3.5rem 5rem;
 }
 
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projetos-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.card-cover{
+    width: 100%;
+    border-radius: 4rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.card-title{
+    font-size: 2rem;
+    color: var(--title-color);
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.card-description{
+    color: var(--primary-color);
+    text-align: justify;
+}
+
+.card-lista{
+    margin-left: 2rem;
+}
+
+.card-item{
+    list-style: disc;
+}
+
+.card-button, .card-description{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card-button .btn{
+    padding: .65rem 1.25rem;
+}
+
+.card-button span{
+    font-size: 1rem;
+}
+
 /* =====  --------------------- ======= */
 
 /* CSS Responsivo */
+
 @media (min-width: 768px)  {
+
     .header {
         position: fixed;
         border-bottom: 3px solid var(--primary-border-color);
         padding: 1rem 6rem;
     }
+
     .nav-mobile {
         display: none;
     }
+
     .header-nav {
         display: flex;
     }
-}
 
+}
