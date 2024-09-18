@@ -603,9 +603,15 @@ gap: 2rem;
 
 }
 
+.accordion-item.active .accordion-item.end{
+
+    border-radius: 0;
+
+}
+
 .accordion-body{
 
-    display: none;
+   /* display: none;*/
 
     padding: 1.25rem;
 
