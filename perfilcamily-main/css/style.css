@@ -822,6 +822,20 @@ gap: 2rem;
 
     }
 
+    .sobre-descricao h2{
+
+        text-align: left;
+
+    }
+    
+    .descricao-button{
+
+        justify-content: flex-start;
+
+    }
+
+
+
 }
 
 @media (min-width: 1200px) {
@@ -841,6 +855,12 @@ gap: 2rem;
     #home{
 
         padding: 10rem, 6rem, 2rem;
+
+    }
+
+    .main-content .btn{
+
+        width: auto;
 
     }
 
@@ -875,6 +895,18 @@ gap: 2rem;
     h3{
 
         font-size: 3.25rem;
+
+    }
+
+    .header{
+
+        padding: 12rem 15rem 2rem;
+
+    }
+
+    .projetos, .sobre{
+
+        padding: 10rem 15rem 4rem;
 
     }
 
